@@ -1,3 +1,4 @@
+import os
 import gradio as gr
 from search import generate_response_with_rag
 import time
@@ -5,7 +6,7 @@ import re
 
 # Hàm xử lý câu hỏi đầu vào và sinh phản hồi từ hệ thống
 def generate_response_stream(user_input, chat_history):
-    api_key = 'AIzaSyD3Hu747dbztC-jogggDfZudh_zYg40PJg'  # Thay bằng API key của bạn
+    api_key = os.environ["GEMINI_API_KEY"]  # export GEMINI_API_KEY=... trước khi chạy
     try:
         response = generate_response_with_rag(user_input, api_key)
 
