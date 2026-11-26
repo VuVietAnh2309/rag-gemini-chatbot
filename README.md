@@ -42,13 +42,13 @@ Phiên bản mới của **VA-VSS** tận dụng sức mạnh của **RAG** và 
 
 ```bash
 # Lệnh clone mã nguồn từ github.
-!git clone https://github.com/VuVietAnh2309/RAG_Gemini.git
+!git clone https://github.com/VuVietAnh2309/rag-gemini-chatbot.git
 ```
 
 
 ### Bước 2: Di chuyển vào thư mục dự án
 ``` bash
-%cd /content/RAG_Gemini
+%cd /content/rag-gemini-chatbot
 ```
 
 ### Bước 3: Cài đặt file môi trường nếu cần thiết
